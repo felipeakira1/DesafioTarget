@@ -1,0 +1,47 @@
+K = 1 < 12 (verdadeiro)
+
+K = K + 1 => K = 2
+SOMA = SOMA + K => SOMA = 0 + 2 = 2
+K = 2 < 12 (verdadeiro)
+
+K = K + 1 => K = 3
+SOMA = SOMA + K => SOMA = 2 + 3 = 5
+K = 3 < 12 (verdadeiro)
+
+K = K + 1 => K = 4
+SOMA = SOMA + K => SOMA = 5 + 4 = 9
+K = 4 < 12 (verdadeiro)
+
+K = K + 1 => K = 5
+SOMA = SOMA + K => SOMA = 9 + 5 = 14
+K = 5 < 12 (verdadeiro)
+
+K = K + 1 => K = 6
+SOMA = SOMA + K => SOMA = 14 + 6 = 20
+K = 6 < 12 (verdadeiro)
+
+K = K + 1 => K = 7
+SOMA = SOMA + K => SOMA = 20 + 7 = 27
+K = 7 < 12 (verdadeiro)
+
+K = K + 1 => K = 8
+SOMA = SOMA + K => SOMA = 27 + 8 = 35
+K = 8 < 12 (verdadeiro)
+
+K = K + 1 => K = 9
+SOMA = SOMA + K => SOMA = 35 + 9 = 44
+K = 9 < 12 (verdadeiro)
+
+K = K + 1 => K = 10
+SOMA = SOMA + K => SOMA = 44 + 10 = 54
+K = 10 < 12 (verdadeiro)
+
+K = K + 1 => K = 11
+SOMA = SOMA + K => SOMA = 54 + 11 = 65
+K = 11 < 12 (verdadeiro)
+
+K = K + 1 => K = 12
+SOMA = SOMA + K => SOMA = 65 + 12 = 77
+K = 12 < 12 (falso) => O laço termina.
+
+Ao final do processamento, o valor da variável SOMA será 77.
